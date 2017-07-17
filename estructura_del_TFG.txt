@@ -1,0 +1,76 @@
+
+----- Portada -----
+
+Indicando el título, el nombre del autor,
+el nombre del profesor, la titulación, la fecha y la
+indicación expresa de que se trata de un Trabajo
+de Fin de Grado. El título es la primera
+presentación del trabajo, y debe ser breve,
+conciso, exacto.
+
+
+----- Índice / Sumario -----
+
+En él se consignan todas las
+partes del trabajo en el orden en el que aparecen
+en él e indicando la página en la que se pueden
+encontrar.
+
+
+----- Presentación / Introducción -----
+
+Texto breve, sintético y atractivo en el que se exponen el
+propósito y los objetivos del trabajo, el ámbito,
+alcance y límites de la investigación, la
+metodología utilizada y las principales
+conclusiones a las que se ha llegado.
+No es una presentación del alumno ni una
+reproducción de los apartados del proyecto, sino
+el planteamiento del núcleo central del proyecto.
+
+ -> Economic and social framework
+ -> Motivation of this project
+ -> Goals of this project
+ 
+
+----- Texto del trabajo -----
+
+Es el cuerpo principal del
+documento, su parte más importante y extensa,
+que variará según el tipo de TFG escogido. Ha de
+estar dividido en capítulos homogéneos y
+numerados. Debe quedar claramente expresado
+el objetivo de la investigación, justificación de su
+interés y pertinencia, marco teórico de referencia
+y contexto. Se debe incluir una fundamentación
+teórica que revise las aportaciones bibliográficas
+principales sobre la materia, describiendo los
+conceptos, teorías e hipótesis existentes. Se debe
+describir la metodología utilizada y analizar la
+información obtenida.
+
+
+----- Conclusiones y Recomendaciones -----
+
+Harán referencia a los resultados de la investigación
+planteada en relación a los objetivos. Es
+conveniente que aparezcan numeradas.
+
+
+----- Bibliografía -----
+
+Cita de manera normalizada todos
+los documentos consultados y utilizados para la
+realización del trabajo.
+
+
+----- Anexos -----
+
+Material utilizado en el trabajo,
+demasiado extenso para incluirlo en una nota
+pero necesario para justificar resultados y
+conclusiones. Pueden ser tablas estadísticas,
+gráficos, legislación, cronología, etc.
+
+
+

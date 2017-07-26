@@ -32,6 +32,48 @@ This API operates on the following primary resource types:
 
 ******** Prerequisites ********
 
+- Git is required to clone OM2M.
+
 - "JAVA 1.7" at minimum is required to run OM2M.
 
 - "Apache Maven 3" is required to build OM2M.
+
+
+
+
+******** Clone OM2M using command line ********
+
+- Clone the OM2M project using git with the following command:
+    git clone https://git.eclipse.org/r/om2m/org.eclipse.om2m
+
+
+
+******** Build OM2M using command line ********
+
+- Go to "org.eclipse.om2m" directory.
+
+- Build OM2M using the following command: (An internet connection is required to download required dependencies)
+    mvn clean install
+
+- Two Eclipse products will be generated after a successful built:
+  * The IN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>"
+  * The MN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/<arch>"
+  * The ASN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.asn-cse/target/products/asn-cse/<os>/<ws>/<arch>"
+
+
+
+******** Test OM2M ********
+
+- Go to the IN-CSE product directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>".
+
+- Start the IN-CSE by executing the "start.bat" script on Windows or "start.sh" on Linux and Mac OS.
+    WARNING for Windows users: don't double click on the "start.bat" file from Eclipse explorer on Windows. This cause unwanted loading of bundles and the platform will NOT be launched. Use the File Explorer instead.
+
+- Once the IN-CSE is started, you will see an OSGi console. You can type “ss” to report a summary status of all installed bundles. Type "exit" to shutdown.
+
+- Open your browser and connect to the address "http://127.0.0.1:8080/webpage" to access the IN-CSE web interface.
+  Enter username "admin" and password "admin" then click on login button to display the IN-CSE resource tree.
+
+- After a successful authentication, the in-cse resource will be displayed. You can see the "in-cse" CseBase sub-resources and attributes.
+
+- Congratulation!! You built and started OM2M successfully.

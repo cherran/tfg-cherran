@@ -39,6 +39,15 @@ This API operates on the following primary resource types:
 - "Apache Maven 3" is required to build OM2M.
 
 
+----> piOM2M: 
+  
+Apache Maven 3.0.5
+  Maven home: /usr/share/maven
+  Java version: 1.8.0_65, vendor: Oracle Corporation
+  Java home: /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre
+  Default locale: en_US, platform encoding: UTF-8
+  OS name: "linux", version: "4.9.35-v7+", arch: "arm", family: "unix"
+
 
 
 ******** Clone OM2M using command line ********
@@ -59,6 +68,41 @@ This API operates on the following primary resource types:
   * The IN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.in-cse/target/products/in-cse/<os>/<ws>/<arch>"
   * The MN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.mn-cse/target/products/mn-cse/<os>/<ws>/<arch>"
   * The ASN product can be found on this directory: "om2m/org.eclipse.om2m/org.eclipse.om2m.site.asn-cse/target/products/asn-cse/<os>/<ws>/<arch>"
+
+piOM2M output:
+
+[INFO] Executed tasks
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] org.eclipse.om2m :: parent ........................ SUCCESS [2.634s]
+[INFO] org.eclipse.om2m :: commons ....................... SUCCESS [12.994s]
+[INFO] org.eclipse.om2m :: logging fragment .............. SUCCESS [0.206s]
+[INFO] org.eclipse.om2m :: binding service ............... SUCCESS [0.397s]
+[INFO] org.eclipse.om2m :: core service .................. SUCCESS [0.320s]
+[INFO] org.eclipse.om2m :: binding http .................. SUCCESS [0.783s]
+[INFO] org.eclipse.om2m :: binding coap .................. SUCCESS [0.625s]
+[INFO] org.eclipse.om2m :: data mapping service .......... SUCCESS [0.338s]
+[INFO] org.eclipse.om2m.binding.mqtt ..................... SUCCESS [0.768s]
+[INFO] org.eclipse.om2m :: persistence service ........... SUCCESS [0.367s]
+[INFO] org.eclipse.om2m :: persistence eclipselink ....... SUCCESS [4.901s]
+[INFO] org.eclipse.om2m :: datamapper jaxb ............... SUCCESS [0.498s]
+[INFO] org.eclipse.om2m :: webapp resourcesbrowser xml ... SUCCESS [0.516s]
+[INFO] org.eclipse.om2m :: webapp resourcesbrowser json .. SUCCESS [0.515s]
+[INFO] org.eclipse.om2m :: interworking service .......... SUCCESS [0.359s]
+[INFO] org.eclipse.om2m :: core .......................... SUCCESS [1.339s]
+[INFO] org.eclipse.om2m :: ipe sample .................... SUCCESS [0.706s]
+[INFO] org.eclipse.om2m :: asn product ................... SUCCESS [25.578s]
+[INFO] org.eclipse.om2m :: in product .................... SUCCESS [23.702s]
+[INFO] org.eclipse.om2m :: mn product .................... SUCCESS [15.488s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6:16.724s
+[INFO] Finished at: Wed Jul 26 17:17:13 CEST 2017
+[INFO] Final Memory: 100M/224M
+[INFO] ------------------------------------------------------------------------
+
 
 
 

@@ -1,0 +1,37 @@
+
+
+
+-------------------------------------  Eclipse OM2M  -------------------------------------
+
+
+OM2M provides an open source service platform for M2M interoperability based on the oneM2M standard. OM2M follows a RESTful approach with open interfaces to enable developing services and applications independently of the underlying network. It proposes a modular architecture running on top of an OSGi layer, making it highly extensible via plugins. It supports multiple protocol bindings such as HTTP and CoAP. Various interworking proxies are provided to enable seamless communication with vendor-specific technologies such as Zigbee and Phidgets devices.
+
+
+
+******** Introduction ********
+
+OM2M provides a RESTful API for creating and managing M2M resources. It includes several primitive procedures to enable machines authentication, resources discovery, applications registration, containers management, synchronous and asynchronous communications, access rights authorization, groups organisation, re-targeting, etc.
+
+This API operates on the following primary resource types:
+
+- CseBase: describes the hosting CSE, and is the root for all other resources within the hosting CSE.
+
+- remoteCse: stores information related to M2M CSEs residing on other M2M machines after successful mutual authentication. It enables Cses interactions using retargeting operations
+
+- AE: stores information about the Application Entity after a successful registration on the hosting CSE.
+
+- Container: acts as a mediator for data buffering to enable data exchange between applications and CSEs
+
+- AccessControlPolicies: manages permissions and permissions holders to limit and protect the access to the resource tree structure.
+
+- Group: enhances resources tree operations and simplifying the interactions on the API interfaces by adding the grouping feature. It enables an issuer to send one request to a set of receivers instead of sending requests one by one.
+
+- Subscription: stores information related to subscriptions for some resources. It allow subscribers to receive asynchronous notification when an event happens such as the reception of new sensor event or the creation, update, or delete of a resource.
+
+
+
+******** Prerequisites ********
+
+- "JAVA 1.7" at minimum is required to run OM2M.
+
+- "Apache Maven 3" is required to build OM2M.

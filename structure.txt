@@ -1,0 +1,104 @@
+
+----- Cover -----
+  -> title????
+
+
+----- Acknowledgments -----
+  Agradecimientos
+
+
+----- Abstract -----
+  -> one page
+  -> English and Spanish???
+
+
+----- Index -----
+  - General
+  - De figuras.
+  - De cuadros
+
+  Cómo crear un índice o sumario en Word:
+
+  1 - Aplicar los estilos de título (Título 1, Título 2, Subtítulo, Énfasis) al texto
+  2 - Word identifica estos títulos y los usa para crear la tabla de contenido
+  3 - Se pueden modificar los estilos (tamaño de letra, fuente...)
+  4 - A continuación se debe marcar con un clic el lugar donde Word debe situar el índice: al comienzo del documento, entre la portada y la introducción
+  5 - Finalmente, hacer clic en Referencias > Tabla de contenido y escoger una tabla automática de la galería de estilos
+
+
+----- Presentación / Introducción -----
+
+  Como unas 5 páginas con las siguientes secciones:
+  1.1 Motivación del proyecto
+    Como 3 páginas para justificar el proyecto.
+
+  1.2 Objetivos
+    Como 1 página detallando los objetivos que se plantean inicialmente en el proyecto.
+
+  1.3 Contenido de la memoria
+    Como 1 página indicando el contenido de los siguientes capı́tulos y apéndices.
+
+   -> Economic and social framework
+   -> Motivation of this project
+   -> Goals of this project
+
+
+
+----- State of the Art -----
+
+  Unas 20 páginas con una revisión [bibliográfica] de las bases técnicas
+  del trabajo. No contar cosas que se hayan visto ya en la carrera.
+
+    2.1 Regulation.
+    2.2 Technology and trends.
+    2.3 IoT Alliances and Ecosystems.
+    2.4 Smart City projects.
+
+  -> OneM2M
+  -> Eclipse IoT
+    -> OM2M
+
+  -> Eclipse Smarthome
+    -> OpenHAB
+
+  -> OSGi?? (Aquí o en Desarollo?)
+
+
+
+----- Development -----
+
+  Dependiente del proyecto, 3 o 4 capítulos, y nunca más de 30 páginas por capítulo.
+
+  Conviene incidir en:
+    -> Arquitectura de los programas realizados
+    -> Estructuración en módulos o paquetes
+    -> Descripción de las interfaces
+    -> Estructuras de datos fundamentales
+    -> Desarrollos algorítmicos no triviales
+
+  Conviene plantearse esta parte pensando en otro ingeniero de
+  capacidad y formación semejante al proyectista, que se encuentra
+  años más tarde en la tesitura de modificar el trabajo hoy realizado.
+  Este hipotético sujeto de la fase de mantenimiento no es tonto, no
+  necesita que le expliquen lo que puede leer en el listado de los
+  programas. Lo que necesita es que le pongan encima de la mesa un
+  plano para que sepa dónde y qué buscar, así como explicaciones de
+  aquellos puntos del programa que no son obvios.
+
+
+
+----- Conclusiones y Recomendaciones -----
+
+  Harán referencia a los resultados de la investigación planteada en relación a los objetivos. Es conveniente que aparezcan numeradas.
+
+
+
+----- Bibliografía -----
+
+  Cita de manera normalizada todos los documentos consultados y utilizados para la realización del trabajo.
+
+
+
+----- Anexos -----
+
+  Material utilizado en el trabajo, demasiado extenso para incluirlo en una nota pero necesario para justificar resultados y conclusionesPueden ser tablas estadísticas, gráficos, legislación, cronología, etc.

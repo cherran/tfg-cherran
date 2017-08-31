@@ -29,6 +29,7 @@
 ----- Presentación / Introducción -----
 
   Como unas 5 páginas con las siguientes secciones:
+
   1.1 Motivación del proyecto
     Como 3 páginas para justificar el proyecto.
 

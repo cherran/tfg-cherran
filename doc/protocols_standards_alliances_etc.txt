@@ -1,0 +1,51 @@
+
+
+Physical layer
+
+ - 802.15.4 (IEEE)
+ - Bluetooth (Bluetooth Special Interest Group)
+ - Bluetooth Low Energy (Bluetooth Special Interest Group)
+ - EC-GSM-IoT (EC-GSM-IoT Group)
+ - LoRaWAN (LoRa Alliance)
+ - NB-IoT (3GPP)
+ - Sigfox (Sigfox)
+ - Wi-Fi (Wi-Fi Alliance)
+
+
+Network / Transport layer
+ - 6LowPan (IETF)
+ - Thread (Thread Group)
+ - ZigBee (ZigBee Alliance)
+ - Z-Wave (Z-Wave Alliance)
+ - CoAP (IETF)
+ - DTLS (IETF)
+ - Eddystone (Google)
+ - HTTP (IETF)
+ - iBeacon (Apple)
+ - MQTT (IBM)
+ - STOMP
+ - Websocket
+ - XMPP (IETF)
+
+
+
+
+
+ AIOTI - The Internet of Things Innovation (AIOTI) aims to strengthen links and build new relationships between the different IoT players (industries, SMEs, startups) and sectors.
+
+ AllSeen Alliance - The AllSeen Alliance is a nonprofit consortium dedicated to enabling and driving the widespread adoption of products, systems and services that support the Internet of Everything with an open, universal development framework supported by a vibrant ecosystem and thriving technical community.
+ Bluetooth Special Interest Group - The Bluetooth Special Interest Group (SIG) is the body that oversees the development of Bluetooth standards and the licensing of the Bluetooth technologies and trademarks to manufacturers.
+
+ IPSO Alliance - The IPSO Alliance provides a foundation for industry growth by fostering awareness, providing education, promoting the industry, generating research, and creating a better understanding of IP and its role in the Internet of Things.
+
+ LoRa Alliance - The LoRa Alliance is an open, non-profit association of members that believes the internet of things era is now. It was initiated by industry leaders with a mission to standardize Low Power Wide Area Networks (LPWAN) being deployed around the world to enable Internet of Things (IoT), machine-to-machine (M2M), and smart city, and industrial applications.
+
+ OPC Foundation - The mission of the OPC Foundation is to manage a global organization in which users, vendors and consortia collaborate to create data transfer standards for multi-vendor, multi-platform, secure and reliable interoperability in industrial automation. To support this mission, the OPC Foundation creates and maintains specifications, ensures compliance with OPC specifications via certification testing and collaborates with industry-leading standards organizations.
+
+ Thread Group - The Thread Group, composed of members from Nest, Samsung, ARM, Freescale, Silicon Labs, Big Ass Fans and Yale, drives the development of the Thread network protocol.
+
+ Wi-Fi Alliance - Wi-Fi Alliance® is a worldwide network of companies composed of several companies forming a global non-profit association with the goal of driving the best user experience with a new wireless networking technology – regardless of brand.
+
+ Zigbee Alliance - The ZigBee Alliance is an open, non-profit association of approximately 450 members driving development of innovative, reliable and easy-to-use ZigBee standards.
+
+ Z-Wave Alliance - Established in 2005, the Z-Wave Alliance is comprised of industry leaders throughout the globe that are dedicated to the development and extension of Z-Wave as the key enabling technology for 'smart' home and business applications.

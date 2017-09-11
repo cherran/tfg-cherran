@@ -1,0 +1,175 @@
+"Framework is launched."
+
+
+id	State       Bundle
+0	ACTIVE      org.eclipse.osgi_3.12.0.v20170512-1932
+	            Fragments=38, 110, 36, 149, 103
+1	ACTIVE      org.eclipse.equinox.common_3.9.0.v20170207-1454
+2	ACTIVE      org.eclipse.smarthome.io.javasound_0.9.0.201709011622
+	            Fragments=91
+3	ACTIVE      com.neuronrobotics.nrjavaserial_3.12.0.OH
+4	ACTIVE      org.eclipse.jetty.security_9.3.14.v20161028
+5	ACTIVE      org.eclipse.smarthome.model.persistence_0.9.0.201709011622
+6	INSTALLED   org.apache.httpcomponents.httpclient_4.5.2.v20170210-0925
+7	ACTIVE      org.apache.commons.codec_1.6.0.v201305230611
+8	ACTIVE      org.apache.commons.collections_3.2.0.v2013030210310
+9	ACTIVE      org.slf4j.api_1.7.2.v20121108-1250
+	            Fragments=113
+10	ACTIVE      com.eclipsesource.jaxrs.jersey-min_2.22.2
+11	ACTIVE      org.eclipse.equinox.util_1.0.500.v20130404-1337
+12	ACTIVE      com.eclipsesource.jaxrs.provider.swagger_1.1.1.201602281253
+13	ACTIVE      org.eclipse.smarthome.automation.module.script_0.9.0.201709011622
+14	ACTIVE      org.eclipse.jetty.rewrite_9.3.14.v20161028
+15	ACTIVE      org.eclipse.smarthome.config.dispatch_0.9.0.201709011622
+16	ACTIVE      org.eclipse.equinox.ds_1.5.0.v20170307-1429
+17	ACTIVE      org.eclipse.smarthome.model.script.runtime_0.9.0.201709011622
+18	ACTIVE      org.eclipse.smarthome.automation.core_0.9.0.201709011622
+19	ACTIVE      org.eclipse.equinox.console_1.1.300.v20170512-2111
+20	ACTIVE      org.eclipse.smarthome.automation.module.timer_0.9.0.201709011622
+21	ACTIVE      org.apache.commons.io_2.2.0.v201405211200
+22	ACTIVE      org.eclipse.smarthome.core.autoupdate_0.9.0.201709011622
+23	ACTIVE      org.eclipse.xtend.lib.macro_2.12.0.v20170518-0757
+24	ACTIVE      org.objectweb.asm_5.0.1.v201404251740
+25	ACTIVE      com.google.guava_15.0.0.v201403281430
+26	ACTIVE      org.eclipse.jetty.websocket.client_9.3.14.v20161028
+27	ACTIVE      org.eclipse.jetty.xml_9.3.14.v20161028
+28	ACTIVE      org.eclipse.smarthome.ui.icon_0.9.0.201709011622
+29	ACTIVE      javax.inject_1.0.0.v20091030
+30	ACTIVE      org.eclipse.smarthome.core.extension.sample_0.9.0.201709011622
+31	ACTIVE      org.eclipse.smarthome.storage.json_0.9.0.201709011622
+32	ACTIVE      org.eclipse.xtext.xbase_2.12.0.v20170519-0752
+33	ACTIVE      org.eclipse.jetty.osgi.boot_9.3.14.v20161028
+34	ACTIVE      org.eclipse.smarthome.model.sitemap.runtime_0.9.0.201709011622
+35	INSTALLED   org.eclipse.smarthome.binding.hue_0.9.0.201709011622
+36	RESOLVED    org.eclipse.equinox.region_1.4.0.v20170117-1425
+	            Master=0
+37	ACTIVE      org.eclipse.equinox.cm_1.2.0.v20170105-1446
+38	RESOLVED    org.eclipse.equinox.transforms.hook_1.2.0.v20170105-1446
+	            Master=0
+39	ACTIVE      org.eclipse.smarthome.ui.basic_0.9.0.201709011622
+	            Fragments=140
+40	ACTIVE      org.eclipse.smarthome.core.id_0.9.0.201709011622
+41	ACTIVE      org.eclipse.jetty.deploy_9.3.14.v20161028
+42	ACTIVE      org.eclipse.smarthome.binding.ntp_0.9.0.201709011622
+43	ACTIVE      org.eclipse.xtext.smap_2.12.0.v20170519-0752
+44	ACTIVE      org.eclipse.smarthome.automation.module.media_0.9.0.201709011622
+45	ACTIVE      com.eclipsesource.jaxrs.publisher_5.3.1.201602281253
+46	ACTIVE      org.eclipse.jetty.proxy_9.3.14.v20161028
+47	ACTIVE      org.eclipse.smarthome.automation.api_0.9.0.201709011622
+48	ACTIVE      org.apache.felix.scr_2.0.10.v20170501-2007
+49	ACTIVE      org.apache.felix.gogo.command_0.10.0.v201209301215
+50	ACTIVE      org.eclipse.equinox.event_1.4.0.v20170105-1446
+51	ACTIVE      org.apache.httpcomponents.httpcore_4.4.6.v20170210-0925
+52	ACTIVE      org.eclipse.xtend.lib_2.12.0.v20170518-0757
+53	ACTIVE      org.apache.commons.httpclient_3.1.0.v201012070820
+54	ACTIVE      com.google.gson_2.7.0.v20170129-0911
+55	ACTIVE      org.slf4j.jul_1.7.2.v20121108-1250
+56	ACTIVE      org.openhab.core.compat1x_2.2.0.201706290927
+57	ACTIVE      org.eclipse.smarthome.core.transform_0.9.0.201709011622
+58	ACTIVE      org.eclipse.xtext.common.types_2.12.0.v20170519-0752
+59	ACTIVE      org.mapdb.mapdb_1.0.9
+60	ACTIVE      org.eclipse.smarthome.core.audio_0.9.0.201709011622
+61	ACTIVE      org.eclipse.jetty.client_9.3.14.v20161028
+62	ACTIVE      org.eclipse.smarthome.storage.mapdb_0.9.0.201709011622
+63	ACTIVE      org.eclipse.smarthome.ui_0.9.0.201709011622
+64	ACTIVE      javax.xml_1.3.4.v201005080400
+65	ACTIVE      org.openhab.ui.dashboard_2.2.0.201706290927
+66	ACTIVE      org.eclipse.smarthome.model.script_0.9.0.201709011622
+67	ACTIVE      org.eclipse.smarthome.model.thing.runtime_0.9.0.201709011622
+68	ACTIVE      org.eclipse.smarthome.automation.module.script.defaultscope_0.9.0.201709011622
+69	ACTIVE      org.eclipse.smarthome.model.sitemap_0.9.0.201709011622
+70	ACTIVE      org.eclipse.jetty.webapp_9.3.14.v20161028
+71	ACTIVE      org.eclipse.osgi.util_3.4.0.v20170111-1608
+72	ACTIVE      org.eclipse.smarthome.automation.parser.gson_0.9.0.201709011622
+73	ACTIVE      org.eclipse.smarthome.core_0.9.0.201709011622
+74	ACTIVE      org.eclipse.equinox.registry_3.7.0.v20170222-1344
+75	ACTIVE      org.eclipse.smarthome.model.rule_0.9.0.201709011622
+76	ACTIVE      org.eclipse.emf.ecore_2.13.0.v20170609-0707
+77	ACTIVE      org.eclipse.smarthome.io.rest.sitemap_0.9.0.201709011622
+78	ACTIVE      org.eclipse.smarthome.transform.map_0.9.0.201709011622
+79	ACTIVE      org.eclipse.smarthome.core.thing_0.9.0.201709011622
+80	ACTIVE      org.eclipse.smarthome.model.core_0.9.0.201709011622
+81	ACTIVE      org.eclipse.smarthome.config.core_0.9.0.201709011622
+82	ACTIVE      org.eclipse.smarthome.model.rule.runtime_0.9.0.201709011622
+83	ACTIVE      org.apache.commons.lang_2.6.0.v201404270220
+84	ACTIVE      javax.servlet_3.1.0.v20140303-1611
+85	ACTIVE      org.eclipse.smarthome.io.console.eclipse_0.9.0.201709011622
+86	ACTIVE      org.eclipse.emf.ecore.xmi_2.13.0.v20170609-0707
+87	ACTIVE      org.slf4j.log4j_1.7.2.v20130115-1340
+88	ACTIVE      org.eclipse.emf.common_2.13.0.v20170609-0707
+89	ACTIVE      org.eclipse.smarthome.core.scheduler_0.9.0.201709011622
+90	ACTIVE      org.eclipse.smarthome.io.console_0.9.0.201709011622
+91	RESOLVED    org.openhab.io.sound_2.2.0.201706290927
+	            Master=2
+92	ACTIVE      org.eclipse.jetty.websocket.api_9.3.14.v20161028
+93	ACTIVE      org.eclipse.xtext_2.12.0.v20170518-0959
+94	ACTIVE      org.eclipse.jetty.servlet_9.3.14.v20161028
+95	ACTIVE      org.eclipse.smarthome.binding.astro_0.9.0.201709011622
+96	ACTIVE      org.apache.commons.exec_1.1.0.v201301240602
+97	ACTIVE      org.eclipse.smarthome.automation.module.core_0.9.0.201709011622
+98	ACTIVE      org.eclipse.smarthome.core.thing.xml_0.9.0.201709011622
+99	ACTIVE      org.eclipse.smarthome.core.binding.xml_0.9.0.201709011622
+100	ACTIVE      org.eclipse.jetty.http_9.3.14.v20161028
+101	ACTIVE      org.eclipse.smarthome.automation.providers_0.9.0.201709011622
+102	ACTIVE      org.apache.felix.gogo.shell_0.10.0.v201212101605
+103	RESOLVED    org.eclipse.jetty.osgi.alpn.fragment_9.3.14.v20161028
+	            Master=0
+104	ACTIVE      com.eclipsesource.jaxrs.swagger-all_1.5.7
+105	ACTIVE      org.eclipse.smarthome.io.rest_0.9.0.201709011622
+106	ACTIVE      org.eclipse.smarthome.io.transport.mdns_0.9.0.201709011622
+107	ACTIVE      org.eclipse.smarthome.model.persistence.runtime_0.9.0.201709011622
+108	ACTIVE      org.eclipse.smarthome.model.thing_0.9.0.201709011622
+109	ACTIVE      org.eclipse.smarthome.automation.module.script.rulesupport_0.9.0.201709011622
+110	RESOLVED    org.eclipse.equinox.weaving.hook_1.2.0.v20160929-1449
+	            Master=0
+111	ACTIVE      org.apache.commons.logging_1.1.1.v201101211721
+112	ACTIVE      org.eclipse.xtext.xbase.lib_2.12.0.v20170518-0757
+113	RESOLVED    ch.qos.logback.slf4j_1.0.7.v20121108-1250
+	            Master=9
+114	ACTIVE      com.google.inject_3.0.0.v201312141243
+115	ACTIVE      ch.qos.logback.core_1.0.7.v20121108-1250
+116	ACTIVE      org.openhab.ui.classicui_2.2.0.201706290927
+117	ACTIVE      org.eclipse.smarthome.core.voice_0.9.0.201709011622
+118	ACTIVE      org.antlr.runtime_3.2.0.v201101311130
+119	ACTIVE      com.eclipsesource.jaxrs.provider.gson_2.3.0.201602281253
+120	ACTIVE      org.eclipse.smarthome.config.xml_0.9.0.201709011622
+121	ACTIVE      org.eclipse.smarthome.ui.classic_0.9.0.201709011622
+122	ACTIVE      ch.qos.logback.classic_1.0.7.v20121108-1250
+123	ACTIVE      org.eclipse.smarthome.io.rest.core_0.9.0.201709011622
+124	ACTIVE      org.eclipse.jetty.util_9.3.14.v20161028
+125	ACTIVE      org.eclipse.smarthome.io.rest.sse_0.9.0.201709011622
+126	ACTIVE      org.eclipse.smarthome.model.item.runtime_0.9.0.201709011622
+127	ACTIVE      org.eclipse.jetty.osgi.httpservice_9.3.14.v20161028
+128	ACTIVE      org.eclipse.smarthome.automation.rest_0.9.0.201709011622
+129	INSTALLED   org.jupnp_2.2.0
+130	ACTIVE      org.eclipse.smarthome.ui.iconset.classic_0.9.0.201709011622
+131	ACTIVE      org.eclipse.smarthome.binding.yahooweather_0.9.0.qualifier
+132	ACTIVE      javax.jmdns_3.5.2
+133	ACTIVE      org.eclipse.smarthome.io.monitor_0.9.0.201709011622
+134	ACTIVE      org.eclipse.smarthome.config.discovery_0.9.0.201709011622
+135	ACTIVE      org.eclipse.smarthome.core.persistence_0.9.0.201709011622
+136	ACTIVE      org.eclipse.osgi.services_3.6.0.v20170228-1906
+137	RESOLVED    org.openhab.ui.paperui_2.2.0.201706290927
+	            Master=143
+138	ACTIVE      org.eclipse.smarthome.io.net_0.9.0.201709011622
+139	ACTIVE      org.eclipse.californium.scandium_1.0.6
+140	RESOLVED    org.openhab.ui.basicui_2.2.0.201706290927
+	            Master=39
+141	ACTIVE      org.eclipse.equinox.http.servlet_1.4.0.v20170524-1452
+142	ACTIVE      org.apache.commons.net_3.2.0.v201305141515
+143	ACTIVE      org.eclipse.smarthome.ui.paper_0.9.0.201709011622
+	            Fragments=137
+144	ACTIVE      org.eclipse.jetty.io_9.3.14.v20161028
+145	ACTIVE      org.eclipse.jetty.websocket.common_9.3.14.v20161028
+146	ACTIVE      californium-osgi_1.0.6
+147	ACTIVE      org.apache.felix.gogo.runtime_0.10.0.v201209301036
+148	INSTALLED   org.eclipse.smarthome.io.transport.upnp_0.9.0.201709011622
+149	RESOLVED    javax.transaction_1.1.1.v201105210645
+	            Master=0
+150	ACTIVE      org.openhab.io.rest.docs_2.2.0.201706290927
+151	ACTIVE      org.eclipse.smarthome.automation.commands_0.9.0.201709011622
+152	ACTIVE      org.eclipse.smarthome.model.item_0.9.0.201709011622
+153	ACTIVE      org.eclipse.xtext.util_2.12.0.v20170518-0959
+154	ACTIVE      org.eclipse.californium.element-connector_1.0.6
+155	ACTIVE      org.eclipse.jetty.server_9.3.14.v20161028
+156	ACTIVE      org.openhab.core_2.2.0.201706290927

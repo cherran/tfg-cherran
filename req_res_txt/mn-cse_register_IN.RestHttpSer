@@ -1,0 +1,64 @@
+[INFO] - org.eclipse.om2m.binding.http.RestHttpServlet  
+Built RequestPrimitive: RequestPrimitive [to=/in-cse,
+ content=<?xml version="1.0" encoding="UTF-8"?>
+<m2m:csr xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="mn-cse1">
+   <poa>http://192.168.1.40:8383/</poa>
+   <cb>//om2m.org/mn-cse1</cb>
+   <csi>/mn-cse1</csi>
+   <rr>true</rr>
+</m2m:csr>
+,
+ ]
+[INFO] - org.eclipse.om2m.binding.http.RestHttpServlet  
+Content type headers: application/xml;ty=16
+[INFO] - org.eclipse.om2m.binding.http.RestHttpServlet  
+Header value: application/xml
+[INFO] - org.eclipse.om2m.binding.http.RestHttpServlet  
+Header value: ty=16
+[INFO] - org.eclipse.om2m.binding.http.RestHttpServlet  
+Accept header: 
+[INFO] - org.eclipse.om2m.core.router.Router  
+Received request in Router: RequestPrimitive [operation=1,
+ to=/in-cse,
+ from=admin:cherran,
+ requestIdentifier=001,
+ resourceType=16,
+ content=<?xml version="1.0" encoding="UTF-8"?>
+<m2m:csr xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="mn-cse1">
+   <poa>http://192.168.1.40:8383/</poa>
+   <cb>//om2m.org/mn-cse1</cb>
+   <csi>/mn-cse1</csi>
+   <rr>true</rr>
+</m2m:csr>
+,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={}]
+[INFO] - org.eclipse.om2m.core.router.Router  
+Request handling in the current CSE: /in-cse
+[INFO] - org.eclipse.om2m.core.router.Router  
+ResourceController to be used [RemoteCSEController]
+[INFO] - org.eclipse.om2m.core.router.Router  
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ requestIdentifier=001
+ to=admin:cherran
+ from=/in-cse
+ location=/in-cse/csr-972475165,
+ contentType=application/xml,
+ content (Only first 1000 caracters)=
+ <?xml version="1.0" encoding="UTF-8"?>
+<m2m:csr xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="mn-cse1">
+   <ty>16</ty>
+   <ri>/in-cse/csr-972475165</ri>
+   <pi>/in-cse</pi>
+   <ct>20170915T161045</ct>
+   <lt>20170915T161045</lt>
+   <acpi>/in-cse/acp-738182861</acpi>
+   <poa>http://192.168.1.40:8383/</poa>
+   <cb>//om2m.org/mn-cse1</cb>
+   <csi>/mn-cse1</csi>
+   <rr>true</rr>
+</m2m:csr>
+
+]

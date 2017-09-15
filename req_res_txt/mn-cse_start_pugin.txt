@@ -1,0 +1,326 @@
+osgi> start 30
+[INFO] - org.eclipse.om2m.ipe.sample.Activator
+Register IpeService..
+[INFO] - org.eclipse.om2m.core.Activator
+IPE service discovered: sample
+[INFO] - org.eclipse.om2m.ipe.sample.Activator
+IpeService is registered.
+[INFO] - org.eclipse.om2m.ipe.sample.Activator
+CseService discovered
+osgi> [INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=2,
+ name=LAMP_0,
+ content=org.eclipse.om2m.commons.resource.AE@2b4c387a,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [AEController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/CAE347559956,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.AE@7b2b22b5
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=3,
+ name=DESCRIPTOR,
+ content=org.eclipse.om2m.commons.resource.Container@c266abe,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContainerController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cnt-994672935,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.Container@2897aa40
+]
+[INFO] - org.eclipse.om2m.ipe.sample.controller.LifeCycleManager
+ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cnt-994672935,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.Container@2897aa40
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=3,
+ name=DATA,
+ content=org.eclipse.om2m.commons.resource.Container@c266abe,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContainerController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cnt-144749061,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.Container@c3a0f9c
+]
+[INFO] - org.eclipse.om2m.ipe.sample.controller.LifeCycleManager
+ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cnt-144749061,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.Container@c3a0f9c
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=4,
+ content=org.eclipse.om2m.commons.resource.ContentInstance@1fafe3d9,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContentInstanceController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cin-121106590,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.ContentInstance@7d819aa8
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=4,
+ content=org.eclipse.om2m.commons.resource.ContentInstance@1fafe3d9,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContentInstanceController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cin-608777729,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.ContentInstance@17bb98a
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=2,
+ name=LAMP_1,
+ content=org.eclipse.om2m.commons.resource.AE@5bf4e887,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [AEController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/CAE991045483,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.AE@56570f0f
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=3,
+ name=DESCRIPTOR,
+ content=org.eclipse.om2m.commons.resource.Container@2ca979c3,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContainerController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cnt-60684341,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.Container@5390b00e
+]
+[INFO] - org.eclipse.om2m.ipe.sample.controller.LifeCycleManager
+ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cnt-60684341,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.Container@5390b00e
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=3,
+ name=DATA,
+ content=org.eclipse.om2m.commons.resource.Container@2ca979c3,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContainerController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cnt-511417222,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.Container@79357cee
+]
+[INFO] - org.eclipse.om2m.ipe.sample.controller.LifeCycleManager
+ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cnt-511417222,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.Container@79357cee
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=4,
+ content=org.eclipse.om2m.commons.resource.ContentInstance@6ba540a4,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContentInstanceController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cin-733530220,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.ContentInstance@61239e84
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=4,
+ content=org.eclipse.om2m.commons.resource.ContentInstance@6ba540a4,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContentInstanceController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cin-790760663,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.ContentInstance@2934f062
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=2,
+ name=LAMP_ALL,
+ content=org.eclipse.om2m.commons.resource.AE@2f257e77,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [AEController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/CAE824349918,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.AE@4b8c6561
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=3,
+ name=DESCRIPTOR,
+ content=org.eclipse.om2m.commons.resource.Container@2d270d,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContainerController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cnt-564452273,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.Container@ee5185d
+]
+[INFO] - org.eclipse.om2m.core.router.Router
+Received request in Router: RequestPrimitive [operation=1,
+ from=admin:cherran,
+ resourceType=4,
+ content=org.eclipse.om2m.commons.resource.ContentInstance@192e1703,
+ returnContentType=application/obj,
+ requestContentType=application/obj,
+ ]
+[INFO] - org.eclipse.om2m.core.router.Router
+Request handling in the current CSE: null
+[INFO] - org.eclipse.om2m.core.router.Router
+ResourceController to be used [ContentInstanceController]
+[INFO] - org.eclipse.om2m.core.router.Router
+Response in Router= ResponsePrimitive [
+ responseStatusCode=2001
+ to=admin:cherran
+ from=/mn-cse1
+ location=/mn-cse1/cin-362415787,
+ content (Only first 1000 caracters)=
+ org.eclipse.om2m.commons.resource.ContentInstance@1d410d36
+]

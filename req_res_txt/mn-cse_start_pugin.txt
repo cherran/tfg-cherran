@@ -1,4 +1,6 @@
 osgi> start 30
+
+
 [INFO] - org.eclipse.om2m.ipe.sample.Activator
 Register IpeService..
 [INFO] - org.eclipse.om2m.core.Activator
@@ -8,6 +10,7 @@ IpeService is registered.
 [INFO] - org.eclipse.om2m.ipe.sample.Activator
 CseService discovered
 osgi> [INFO] - org.eclipse.om2m.core.router.Router
+
 Received request in Router: RequestPrimitive [operation=1,
  from=admin:cherran,
  resourceType=2,
@@ -21,6 +24,7 @@ Request handling in the current CSE: null
 [INFO] - org.eclipse.om2m.core.router.Router
 ResourceController to be used [AEController]
 [INFO] - org.eclipse.om2m.core.router.Router
+
 Response in Router= ResponsePrimitive [
  responseStatusCode=2001
  to=admin:cherran
@@ -29,6 +33,8 @@ Response in Router= ResponsePrimitive [
  content (Only first 1000 caracters)=
  org.eclipse.om2m.commons.resource.AE@7b2b22b5
 ]
+
+
 [INFO] - org.eclipse.om2m.core.router.Router
 Received request in Router: RequestPrimitive [operation=1,
  from=admin:cherran,
@@ -38,6 +44,8 @@ Received request in Router: RequestPrimitive [operation=1,
  returnContentType=application/obj,
  requestContentType=application/obj,
  ]
+
+
 [INFO] - org.eclipse.om2m.core.router.Router
 Request handling in the current CSE: null
 [INFO] - org.eclipse.om2m.core.router.Router
@@ -51,6 +59,8 @@ Response in Router= ResponsePrimitive [
  content (Only first 1000 caracters)=
  org.eclipse.om2m.commons.resource.Container@2897aa40
 ]
+
+
 [INFO] - org.eclipse.om2m.ipe.sample.controller.LifeCycleManager
 ResponsePrimitive [
  responseStatusCode=2001
@@ -60,6 +70,8 @@ ResponsePrimitive [
  content (Only first 1000 caracters)=
  org.eclipse.om2m.commons.resource.Container@2897aa40
 ]
+
+
 [INFO] - org.eclipse.om2m.core.router.Router
 Received request in Router: RequestPrimitive [operation=1,
  from=admin:cherran,
@@ -69,6 +81,8 @@ Received request in Router: RequestPrimitive [operation=1,
  returnContentType=application/obj,
  requestContentType=application/obj,
  ]
+
+
 [INFO] - org.eclipse.om2m.core.router.Router
 Request handling in the current CSE: null
 [INFO] - org.eclipse.om2m.core.router.Router
@@ -82,6 +96,8 @@ Response in Router= ResponsePrimitive [
  content (Only first 1000 caracters)=
  org.eclipse.om2m.commons.resource.Container@c3a0f9c
 ]
+
+
 [INFO] - org.eclipse.om2m.ipe.sample.controller.LifeCycleManager
 ResponsePrimitive [
  responseStatusCode=2001
@@ -91,6 +107,8 @@ ResponsePrimitive [
  content (Only first 1000 caracters)=
  org.eclipse.om2m.commons.resource.Container@c3a0f9c
 ]
+
+
 [INFO] - org.eclipse.om2m.core.router.Router
 Received request in Router: RequestPrimitive [operation=1,
  from=admin:cherran,
@@ -103,6 +121,8 @@ Received request in Router: RequestPrimitive [operation=1,
 Request handling in the current CSE: null
 [INFO] - org.eclipse.om2m.core.router.Router
 ResourceController to be used [ContentInstanceController]
+
+
 [INFO] - org.eclipse.om2m.core.router.Router
 Response in Router= ResponsePrimitive [
  responseStatusCode=2001

@@ -1,0 +1,206 @@
+--------------------------------------------------------------------------
+
+GET http://192.168.1.42:8080/~/in-cse?rcn=5
+
+<?xml version="1.0" encoding="UTF-8"?>
+<m2m:cb xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="in-local">
+    <ty>5</ty>
+    <ri>/in-cse</ri>
+    <ct>20170915T210144</ct>
+    <lt>20170915T210144</lt>
+    <acpi>/in-cse/acp-405106469</acpi>
+    <cst>1</cst>
+    <csi>in-cse</csi>
+    <srt>1 2 3 4 5 9 14 15 16 17 23</srt>
+    <poa>http://192.168.1.42:8080/</poa>
+    <ch rn="acp_admin" ty="1">/in-cse/acp-405106469</ch>
+    <ch rn="mn-cse1" ty="16">/in-cse/csr-861067703</ch>
+</m2m:cb>
+
+--------------------------------------------------------------------------
+
+POST http://192.168.1.42:8080/~/in-cse/
+
+BODY:
+<m2m:ae xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="openHAB_AE" >
+    <api>corg.eclipse.smarthome.binding.onem2m</api>
+    <rr>false</rr>
+    <acpi>/in-cse/acp-231753949</acpi>
+</m2m:ae>
+
+201 Created
+
+Content-Length →409
+Content-Location →/in-cse/CAE282010220
+Content-Type →application/xml;charset=ISO-8859-1
+Server →Jetty(8.1.16.v20140903)
+X-M2M-Origin →/in-cse
+X-M2M-RSC →2001
+
+<?xml version="1.0" encoding="UTF-8"?>
+<m2m:ae xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="openHAB_AE">
+    <ty>2</ty>
+    <ri>/in-cse/CAE282010220</ri>
+    <pi>/in-cse</pi>
+    <ct>20170915T211238</ct>
+    <lt>20170915T211238</lt>
+    <acpi>/in-cse/acp-405106469</acpi>
+    <et>20180915T211238</et>
+    <api>corg.eclipse.smarthome.binding.onem2m</api>
+    <aei>CAE282010220</aei>
+    <rr>false</rr>
+</m2m:ae>
+
+--------------------------------------------------------------------------
+
+GET http://192.168.1.42:8080/~/in-cse/acp-405106469?rcn=5
+
+200 OK
+Content-Length →550
+Content-Type →application/xml;charset=ISO-8859-1
+Server →Jetty(8.1.16.v20140903)
+X-M2M-Origin →/in-cse
+X-M2M-RSC →2000
+
+<?xml version="1.0" encoding="UTF-8"?>
+<m2m:acp xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="acp_admin">
+    <ty>1</ty>
+    <ri>/in-cse/acp-405106469</ri>
+    <pi>/in-cse</pi>
+    <ct>20170915T210144</ct>
+    <lt>20170915T210144</lt>
+    <pv>
+        <acr>
+            <acor>/in-cse admin:cherran</acor>
+            <acop>63</acop>
+        </acr>
+        <acr>
+            <acor>* guest:guest</acor>
+            <acop>34</acop>
+        </acr>
+    </pv>
+    <pvs>
+        <acr>
+            <acor>admin:cherran</acor>
+            <acop>63</acop>
+        </acr>
+    </pvs>
+</m2m:acp>
+
+
+--------------------------------------------------------------------------
+
+GET http://192.168.1.42:8080/~/mn-cse1?rcn=5
+
+200 OK
+
+<?xml version="1.0" encoding="UTF-8"?>
+<m2m:cb xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="mn-home">
+    <ty>5</ty>
+    <ri>/mn-cse1</ri>
+    <ct>20170915T210418</ct>
+    <lt>20170915T210418</lt>
+    <acpi>/mn-cse1/acp-800881531</acpi>
+    <cst>1</cst>
+    <csi>mn-cse1</csi>
+    <srt>1 2 3 4 5 9 14 15 16 17 23</srt>
+    <poa>http://192.168.1.40:8383/</poa>
+    <ch rn="acp_admin" ty="1">/mn-cse1/acp-800881531</ch>
+    <ch rn="LAMP_0" ty="2">/mn-cse1/CAE783159686</ch>
+    <ch rn="LAMP_1" ty="2">/mn-cse1/CAE682713242</ch>
+    <ch rn="LAMP_ALL" ty="2">/mn-cse1/CAE181419646</ch>
+    <ch rn="in-local" ty="16">/mn-cse1/csr-861171709</ch>
+</m2m:cb>
+
+--------------------------------------------------------------------------
+
+GET http://192.168.1.42:8080/~/mn-cse1/acp-800881531?rcn=5
+
+200 OK
+
+<?xml version="1.0" encoding="UTF-8"?>
+<m2m:acp xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="acp_admin">
+    <ty>1</ty>
+    <ri>/mn-cse1/acp-800881531</ri>
+    <pi>/mn-cse1</pi>
+    <ct>20170915T210418</ct>
+    <lt>20170915T210418</lt>
+    <pv>
+        <acr>
+            <acor>/mn-cse1 admin:cherran</acor>
+            <acop>63</acop>
+        </acr>
+        <acr>
+            <acor>* guest:guest</acor>
+            <acop>34</acop>
+        </acr>
+    </pv>
+    <pvs>
+        <acr>
+            <acor>admin:cherran</acor>
+            <acop>63</acop>
+        </acr>
+    </pvs>
+</m2m:acp>
+
+
+--------------------------------------------------------------------------
+
+PUT http://192.168.1.42:8080/~/mn-cse1/acp-800881531?rcn=5
+
+200 OK
+
+<?xml version="1.0" encoding="UTF-8"?>
+<m2m:acp xmlns:m2m="http://www.onem2m.org/xml/protocols">
+    <pv>
+        <acr>
+            <acor>/mn-cse1 admin:cherran /in-cse/openHAB_AE</acor>
+            <acop>63</acop>
+        </acr>
+        <acr>
+            <acor>* guest:guest</acor>
+            <acop>34</acop>
+        </acr>
+    </pv>
+    <pvs>
+        <acr>
+            <acor>admin:cherran</acor>
+            <acop>63</acop>
+        </acr>
+    </pvs>
+</m2m:acp>
+
+
+--------------------------------------------------------------------------
+
+GET http://192.168.1.42:8080/~/mn-cse1/cin-336881375
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<m2m:cin xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="cin_336881375">
+    <ty>4</ty>
+    <ri>/mn-cse1/cin-336881375</ri>
+    <pi>/mn-cse1/cnt-872437461</pi>
+    <ct>20170915T211132</ct>
+    <lt>20170915T211132</lt>
+    <st>0</st>
+    <cnf>application/obix</cnf>
+    <cs>663</cs>
+    <con>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?>
+&lt;obj>
+    &lt;str val=&quot;LAMP&quot; name=&quot;type&quot;/>
+    &lt;str val=&quot;Home&quot; name=&quot;location&quot;/>
+    &lt;str val=&quot;LAMP_0&quot; name=&quot;appId&quot;/>
+    &lt;op href=&quot;/mn-cse1/mn-home/LAMP_0/DATA/la&quot; name=&quot;getState&quot; is=&quot;retrieve&quot;/>
+    &lt;op href=&quot;/mn-cse1/mn-home/LAMP_0?op=getStateDirect&amp;amp;lampid=LAMP_0&quot; name=&quot;getState(Direct)&quot; is=&quot;execute&quot;/>
+    &lt;op href=&quot;/mn-cse1/mn-home/LAMP_0?op=setOn&amp;amp;lampid=LAMP_0&quot; name=&quot;switchON&quot; is=&quot;execute&quot;/>
+    &lt;op href=&quot;/mn-cse1/mn-home/LAMP_0?op=setOff&amp;amp;lampid=LAMP_0&quot; name=&quot;switchOFF&quot; is=&quot;execute&quot;/>
+    &lt;op href=&quot;/mn-cse1/mn-home/LAMP_0?op=toggle&amp;amp;lampid=LAMP_0&quot; name=&quot;toggle&quot; is=&quot;execute&quot;/>
+&lt;/obj></con>
+</m2m:cin>
+
+--------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------
